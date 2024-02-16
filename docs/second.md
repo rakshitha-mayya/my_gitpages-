@@ -4,6 +4,8 @@ title: Image and Table
 nav_order: 1
 ---
 
+# Image and Table
+ 
 ## Image
 
 This is some sample image 
