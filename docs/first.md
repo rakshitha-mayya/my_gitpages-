@@ -16,7 +16,7 @@ This is the first page.
 
 The file contains:
 
-```yaml
+```yml
 title: My github pages
 description: Port of the Read the Docs theme to Jekyll to use with GitHub Pages.
 
@@ -25,4 +25,11 @@ webrick:
 headers:
 Access-Control-Allow-Origin: "*"
 ```
+## Directory structure
+
+This contains
+/- _includes
+/- _layouts
+/- assets
+/- docs   folders
 
