@@ -14,7 +14,7 @@
     to implement this, but the Liquid template language is very limited.
 {%- endcomment -%}
 
-{%- assign sections = "/docs/" %}
+{%- assign sections = "" %}
 {%- assign last_loop_page = false %}
 {%- assign set_next_page = false %}
 {%- assign nav = site.pages | sort:"nav_order" %}
@@ -44,7 +44,7 @@
                 {% endif %}
             {%- endif %}
         {%- else %}
-            {%- assign sections = sections | append: path_array[1] | append: "|" %}
+            {%- assign sections = sections | append: path_array[2] | append: "|" %}
         {%- endif %}
     {%- endif %}
 {%- endfor %}
