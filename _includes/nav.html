@@ -17,7 +17,7 @@
 {%- assign sections = "docs" %}
 {%- assign last_loop_page = false %}
 {%- assign set_next_page = false %}
-{%- assign nav = site.pages | sort:"nav_order" %}
+{%- assign nav = site.pages | sort: "nav_order" %}
 
 {%- comment %} First loop to print pages without categories and collect an array of categories {%- endcomment %}
 {%- for nav_item in nav %}
