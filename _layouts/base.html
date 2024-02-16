@@ -24,7 +24,7 @@
 
   <div class="wy-grid-for-nav">
 
-    {%- comment %} SIDE NAV, TOGGLES ON MOBILE {% endcomment %}
+    <!-- {%- comment %} SIDE NAV, TOGGLES ON MOBILE {% endcomment %}
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
       <div class="wy-side-scroll">
         <div class="wy-side-nav-search">
@@ -33,8 +33,8 @@
           {%- else %}
             <a href="{{ site.url | absolute_url }}{{ site.github.baseurl }}" class="icon icon-home"> {{ site.title }}</a>
           {%- endif %}
-          <!-- {% unless site.search_enabled == false %}{% include searchbox.html %}{% endunless %} -->
-        </div>
+           {% unless site.search_enabled == false %}{% include searchbox.html %}{% endunless %} 
+        </div> -->
 
         <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
           {% include nav.html %} 
