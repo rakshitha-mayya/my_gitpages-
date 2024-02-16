@@ -28,8 +28,8 @@ Access-Control-Allow-Origin: "*"
 ## Directory structure
 
 This contains
-/- _includes
-/- _layouts
-/- assets
-/- docs   folders
+includes
+layouts
+assets
+docs   folders
 
