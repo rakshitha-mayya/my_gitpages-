@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Introduction
-nav_order: exclude
+nav_order: 0
 ---
 
 # Introduction page
