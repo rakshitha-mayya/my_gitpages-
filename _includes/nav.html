@@ -53,7 +53,7 @@
 {%- for section in sections %}
     <p class="caption"><span class="caption-text">{{ section }}</span></p>
     {%- for nav_item in nav %}
-        {%- assign path_array = nav_item.dir | split: "/" %}
+        {%- assign path_array = nav_item.dir | split: "/docs/" %}
         {%- assign page_section = path_array[1] %}
         {%- if page_section == section and nav_item.hide != true and nav_item.nav_exclude != true %}
             {%- if nav_item.url == page.url %}
